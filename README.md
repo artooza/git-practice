@@ -24,5 +24,42 @@ The project follows a standard industrial data science pipeline:
 8.	Model Interpretation
 9.	Business Insights and Recommendations
 
+## Business Objectives
 
+The primary objective of this project is to develop a predictive model that supports more effective and data-driven bank marketing campaigns.
 
+**The specific objectives are:**
+
+- Predict customer subscription before campaign execution.
+- Identify high-potential customers for targeted marketing.
+- Reduce unnecessary marketing costs and improve campaign efficiency.
+- Compare multiple machine learning models and select the best-performing one.
+- Interpret the final model to identify the key drivers of customer subscription.
+
+## Dataset
+The dataset is the Bank Marketing Dataset from the UCI Machine Learning Repository.
+It contains demographic information, previous marketing interactions, economic indicators, and campaign-related attributes collected during direct marketing campaigns conducted by a Portuguese bank.
+
+## Project Workflow
+The project follows a standard industrial data science pipeline:
+1.	Data Cleaning
+2.	Exploratory Data Analysis (EDA)
+3.	Feature Engineering
+4.	Feature Selection Analysis
+5.	Model Development
+6.	Hyperparameter Optimization
+7.	Model Evaluation
+8.	Model Interpretation
+9.	Business Insights and Recommendations
+
+## Machine Learning Models
+Models evaluated:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- XGBoost / LightGBM / CatBoost
+
+Hyperparameter tuning:
+- GridSearchCV
+- Stratified K-Fold Cross Validation
