@@ -12,18 +12,6 @@ Such a system helps the bank:
 - Improve customer experience by minimizing unnecessary calls
 - Allocate marketing resources more efficiently
 
-## Project Workflow
-The project follows a standard industrial data science pipeline:
-1.	Data Cleaning
-2.	Exploratory Data Analysis (EDA)
-3.	Feature Engineering
-4.	Data Preprocessing
-5.	Model Development
-6.	Hyperparameter Optimization
-7.	Model Evaluation
-8.	Model Interpretation
-9.	Business Insights and Recommendations
-
 ## Business Objectives
 The primary objective of this project is to develop a predictive model that supports more effective and data-driven bank marketing campaigns.
 
