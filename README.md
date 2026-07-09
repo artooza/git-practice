@@ -130,68 +130,17 @@ These methods provide insight into the main factors influencing customer subscri
 
 ## Key Business Insights
 
-**1. Previous Customer Interactions Are Strong Predictors**
+- Previous customer interactions were the strongest predictors of subscription probability, indicating that historical campaign success is highly valuable for customer targeting.
 
-Historical campaign outcomes were among the strongest predictors of subscription probability.
+- Macroeconomic indicators such as euribor3m, emp.var.rate, and nr.employed significantly influenced customer decisions.
 
-Customers with successful previous interactions showed significantly higher conversion potential.
+- Campaign strategy variables showed that excessive contact attempts may reduce conversion probability.
 
-**Business implication:**
+- Behavioral features provided more predictive power than demographic characteristics.
 
-Prioritize customers with positive previous campaign responses to improve targeting efficiency.
+- Model interpretation using SHAP, Feature Importance, and Permutation Importance increased confidence in the identified drivers.
 
-
-**2. Macroeconomic Conditions Influence Customer Decisions**
-
-Economic indicators such as:
-
-- euribor3m
-- emp.var.rate
-- nr.employed
-
-were consistently identified as important predictors.
-
-The results suggest that customer decisions are influenced not only by personal characteristics but also by the broader economic environment.
-
-
-**3. Campaign Strategy Affects Conversion Probability**
-
-Campaign-related variables, including:
-
-- Number of contacts
-- Contact channel
-- Campaign timing
-
-showed strong relationships with subscription probability.
-Increasing contact attempts generally reduced the likelihood of subscription, suggesting that excessive contact may reduce campaign effectiveness.
-
-
-**4. Customer Behavior Is More Informative Than Demographics**
-
-Behavioral variables such as previous interactions and campaign history demonstrated stronger predictive power compared with demographic features such as:
-
-- Age
-- Education
-- Occupation
-
-
-**5. Model Explainability Improves Decision Confidence**
-
-Different interpretation methods identified similar important features.
-
-The consistency between Feature Importance, Permutation Importance, SHAP, and Logistic Regression analysis increases confidence in the identified drivers.
-
-
-**6. Predictive Targeting Can Improve Marketing Efficiency**
-
-Instead of contacting all customers, the bank can rank customers based on predicted subscription probability.
-
-This allows marketing teams to:
-
-- Focus on high-potential customers
-- Reduce campaign costs
-- Improve conversion rates
-- Increase return on marketing investment
+- Predictive targeting can help reduce marketing costs and improve campaign efficiency.
 
 
 ## Limitations
