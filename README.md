@@ -1,6 +1,6 @@
 # Bank Marketing Prediction
 
-An end-to-end machine learning project to predict whether a customer will subscribe to a bank term deposit using customer characteristics, campaign information, and macroeconomic indicators.
+An **end-to-end machine learning project** to predict whether a customer will subscribe to a bank term deposit using customer characteristics, campaign information, and macroeconomic indicators.
 
 The project demonstrates a complete data science workflow, including exploratory data analysis, feature engineering, model development, hyperparameter tuning, model interpretation, and business recommendations.
 
@@ -18,7 +18,6 @@ This approach can help the bank:
 - Improve marketing resource allocation
 - Support data-driven decision-making
 
----
 
 ## Project Workflow
 
@@ -48,31 +47,30 @@ It contains:
 - Macroeconomic indicators
 - Subscription outcome
 
-Target variable: y
+Target variable(y):
 
 
-- yes → Customer subscribed to term deposit
-- no → Customer did not subscribe
+- **yes** → Customer subscribed to term deposit
+- **no** → Customer did not subscribe
 
----
 
 ## Repository Structure
-bank-marketing-prediction
 
+```text
+bank-marketing-prediction
 │
 ├── notebooks
-│ ├── EDA_and_Preprocessing.ipynb
-│ └── Model_Training_and_Evaluation.ipynb
+│   ├── EDA_and_Preprocessing.ipynb
+│   └── Model_Training_and_Evaluation.ipynb
 │
 ├── README.md
 └── requirements.txt
+```
 
-
----
 
 ## Machine Learning Models
 
-The following classification algorithms were evaluated:
+**The following classification algorithms were evaluated:**
 
 - Logistic Regression
 - Decision Tree
@@ -81,7 +79,7 @@ The following classification algorithms were evaluated:
 - LightGBM
 - CatBoost
 
-Hyperparameter optimization was performed using:
+**Hyperparameter optimization was performed using:**
 
 - GridSearchCV
 - Stratified K-Fold Cross Validation
@@ -143,7 +141,7 @@ Customers with successful previous interactions showed significantly higher conv
 Prioritize customers with positive previous campaign responses to improve targeting efficiency.
 
 
-** 2. Macroeconomic Conditions Influence Customer Decisions**
+**2. Macroeconomic Conditions Influence Customer Decisions**
 
 Economic indicators such as:
 
@@ -155,7 +153,6 @@ were consistently identified as important predictors.
 
 The results suggest that customer decisions are influenced not only by personal characteristics but also by the broader economic environment.
 
----
 
 **3. Campaign Strategy Affects Conversion Probability**
 
@@ -166,7 +163,6 @@ Campaign-related variables, including:
 - Campaign timing
 
 showed strong relationships with subscription probability.
-
 Increasing contact attempts generally reduced the likelihood of subscription, suggesting that excessive contact may reduce campaign effectiveness.
 
 
@@ -179,13 +175,11 @@ Behavioral variables such as previous interactions and campaign history demonstr
 - Occupation
 
 
-
 **5. Model Explainability Improves Decision Confidence**
 
 Different interpretation methods identified similar important features.
 
 The consistency between Feature Importance, Permutation Importance, SHAP, and Logistic Regression analysis increases confidence in the identified drivers.
-
 
 
 **6. Predictive Targeting Can Improve Marketing Efficiency**
@@ -199,7 +193,6 @@ This allows marketing teams to:
 - Improve conversion rates
 - Increase return on marketing investment
 
----
 
 ## Limitations
 
@@ -211,7 +204,6 @@ This project has several limitations:
 - The dataset contains class imbalance, which may influence model behavior.
 - Economic variables contain multicollinearity, requiring careful interpretation.
 
----
 
 ## Conclusion
 
@@ -223,7 +215,6 @@ Model interpretation techniques showed that previous customer interactions, camp
 
 The results demonstrate that combining predictive modeling with explainability can provide both accurate predictions and actionable business insights for improving marketing strategies.
 
----
 
 ## Technologies Used
 
@@ -239,7 +230,6 @@ The results demonstrate that combining predictive modeling with explainability c
 - SHAP
 - Jupyter Notebook
 
----
 
 ### Author
 
